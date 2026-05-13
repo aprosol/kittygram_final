@@ -169,7 +169,7 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          source: "docker-compose.production.yml"
+          source: "docker-compose.yml"
           target: "kittygram"
 
       - name: Deploy on server
